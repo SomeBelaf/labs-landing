@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labs</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row flex-column align-items-baseline flex-md-row align-items-md-center justify-content-md-between   header__inner">
+                <div class="col-auto  logo__wrapper">
+                    <arcticle class="logo"><a href="home.html"><img src="./images/logo.png" alt="Labs"></a></arcticle>
+                </div>
+                <div class="col-auto flex-column align-items-baseline header-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li class="active"><a href="blog.html">Blog</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-auto mobile-menu">
+                    <button class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <arcticle class="intro-section section-bg">     
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-end page-info">
+                <section>
+                    <h2>Blog</h2>
+                    <div class="page-link"><a href="home.html">home</a><span>Blog</span></div>
+                </section>
+            </div>
+        </div>
+    </arcticle>
+
+    <arcticle class="blog small-padding">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-8">
+                    <div class="row flex-column blog-content">
+                        <section class="col post">
+                            <div class="post__img">
+                                <img src="./images/blog/blog-1.jpg" alt="">
+                                <div class="post__date">
+                                    <h3>03</h3>
+                                    <span>Nov 2017</span>
+                                </div>
+                            </div>
+                            <h2 class="post__title">Just a simple blog post</h2>
+                            <div class="post__info">
+                                <a href="#">Loredana Papp</a>
+                                <a href="#">Design, Inspiration</a>
+                                <a href="#">2 Comments</a>
+                            </div>
+                            <div class="post__content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam. Etiam feugiat augue et varius blandit. Praesent mattis, eros a sodales commodo.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam. Etiam feugiat augue et varius blandit. Praesent mattis, eros a sodales commodo, justo ipsum rutrum mauris, sit amet egestas metus quam sed dolor. Sed consectetur, dui sed sollicitudin eleifend, arcu neque egestas lectus, sagittis viverra justo massa ut sapien. Aenean viverra ornare mauris eget lobortis. Cras vulputate elementum magna, tincidunt pharetra erat condimentum sit amet. Maecenas vitae ligula pretium, convallis magna eu, ultricies quam. In hac habitasse platea dictumst.</p>
+                                <p>Fusce vel tempus nunc. Phasellus et risus eget sapien suscipit efficitur. Suspendisse iaculis purus ornare urna egestas imperdiet. Nulla congue consectetur placerat. Integer sit amet auctor justo. Pellentesque vel congue velit. Sed ullamcorper lacus scelerisque condimentum convallis. Sed ac mollis sem. </p>
+                            </div>
+                            <arcticle class="autor">
+                                <section class="autor__photo">
+                                    <img src="./images/avatar/03.jpg" alt="">
+                                </section>
+                                <section class="autor__info">
+                                    <h3>
+                                        Lore Williams, 
+                                        <span>Author</span>
+                                    </h3>
+                                    <p>Vivamus in urna eu enim porttitor consequat. Proin vitae pulvinar libero. Proin ut hendrerit metus. Aliquam erat volutpat. Donec fermen tum convallis ante eget tristique. </p>
+                                </section>
+                            </arcticle>
+                            <arcticle class="coments">
+                                <div class="coments__title">
+                                    <h2>Coments(
+                                        <span id="num-of-coments">2</span>)
+                                    </h2>
+                                </div>
+                                <ul class="coments__list">
+                                    <li>
+                                        <section class="coments__img"><img src="./images/avatar/01.jpg" alt=""></section>
+                                        <section class="coments__content">
+                                            <h3><span id="coments__name">Michael Smith</span><span id="coments__date">03 nov, 2017</span>Reply</h3>
+                                            <p>Vivamus in urna eu enim porttitor consequat. Proin vitae pulvinar libero. Proin ut hendrerit metus. Aliquam erat volutpat. Donec fermen tum convallis ante eget tristique. </p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <section class="coments__img"><img src="./images/avatar/02.jpg" alt=""></section>
+                                        <section class="coments__content">
+                                            <h3><span id="coments__name">Michael Smith</span><span id="coments__date">03 nov, 2017</span>Reply</h3>
+                                            <p>Vivamus in urna eu enim porttitor consequat. Proin vitae pulvinar libero. Proin ut hendrerit metus. Aliquam erat volutpat. Donec fermen tum convallis ante eget tristique. </p>
+                                        </section>
+                                    </li>
+                                </ul>
+                            </arcticle>
+
+                            <arcticle class="row flex-column coment-form">
+                                <div class="col coment-form__title">
+                                    <h2>Leave a comment</h2>
+                                </div>
+                                <div class="col-md-9">
+                                    <form action="submit" class="form">
+                                        <div class="row align-items-baseline">
+                                            <div class="col-xs-12 col-sm-6"><input type="text" placeholder="Your email" class="input"></div>
+                                            <div class="col-xs-12 col-sm-6"><input type="text" placeholder="Your name" class="input"></div>
+                                            <div class="col-12"><input type="text" placeholder="Subject" class="input"></div>
+                                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" class="input input--textarea"></textarea></div>
+                                            <div class="col-auto"><button class="button" type="submit">Send</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </arcticle>
+
+                        </section>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <article class="row flex-column sidebar">
+                        <section class="col sidebar__search sidebar__widget">
+                            <form action="#">
+                                <input type="text" class="search" placeholder="Search">
+                                <button class="button button--negative"><i class="flaticon-026-search"></i></button>   
+                            </form>
+                        </section>
+                        <section class="col sidebar__categories sidebar__widget">
+                            <h3>Categories</h3>
+                            <ul>
+                                <li><a href="#">Vestibulum maximus</a></li>
+                                <li><a href="#">Nisi eu lobortis pharetra</a></li>
+                                <li><a href="#">Orci quam accumsan </a></li>
+                                <li><a href="#">Auguen pharetra massa</a></li>
+                                <li><a href="#">Tellus ut nulla</a></li>
+                                <li><a href="#">Etiam egestas viverra </a></li>
+                            </ul>
+                        </section>
+                        <section class="col sidebar__instagram sidebar__widget">
+                            <h3>Instagram</h3>
+                            <ul>
+                                <li><img src="./images/instagram/1.jpg" alt=""></li>
+                                <li><img src="./images/instagram/2.jpg" alt=""></li>
+                                <li><img src="./images/instagram/3.jpg" alt=""></li>
+                                <li><img src="./images/instagram/4.jpg" alt=""></li>
+                                <li><img src="./images/instagram/5.jpg" alt=""></li>
+                                <li><img src="./images/instagram/6.jpg" alt=""></li>
+                            </ul>
+                        </section>
+                        <section class="col sidebar__tags sidebar__widget">
+                            <h3>Tags</h3>
+                            <ul>
+                                <li><a href="#">branding</a></li>
+                                <li><a href="#">identity</a></li>
+                                <li><a href="#">video</a></li>
+                                <li><a href="#">design</a></li>
+                                <li><a href="#">inspiration</a></li>
+                                <li><a href="#">web design</a></li>
+                                <li><a href="#">photography</a></li>
+                            </ul>
+                        </section>
+                        <section class="col sidebar__quote sidebar__widget">
+                            <h3>Quote</h3>
+                            <span>‘&#8203;&zwnj;‘&#8203;&zwnj;</span>
+                            <p>Vivamus in urna eu enim porttitor consequat. Proin vitae pulvinar libero. Proin ut hendrerit metus. Aliquam erat volutpat. Donec fermen tum convallis ante eget tristique. Sed lacinia turpis at ultricies vestibulum.</p>
+                        </section>
+                        <section class="col sidebar__add sidebar__widget">
+                            <a href="#">
+                                <img src="./images/add.jpg" alt="Add">
+                            </a>
+                        </section>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </arcticle>
+
+
+
+    <arcticle class="newsletter small-padding">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <h2>Newsletter</h2>
+                </div>
+                <div class="col-sm-12 col-lg-9">
+                    <form action="submit" class="newsletter__form">
+                        <div class="row align-items-center justify-content-center justify-content-md-between">
+                            <div class="col-md-8"><input type="text" placeholder="Your e-mail here"></div>
+                            <div class="col-auto"><button class="button button--negative" type="submit">Newsletter</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </arcticle>
+
+ 
+
+    <footer class="footer">
+        <h2>2017 All rights reserved. Designed by 
+            <a href="https://colorlib.com/">Colorlib</a>
+        </h2>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

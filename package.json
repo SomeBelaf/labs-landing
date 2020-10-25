@@ -21,7 +21,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp default"
+    "start": "gulp default",
+    "build": "gulp build"
   },
   "author": "Bogdan Kolodyazhenskiy",
   "license": "ISC"
