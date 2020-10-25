@@ -1,0 +1,29 @@
+.promotion {
+  display: block;
+  background-color: $active_color;
+  &__content {
+    h2 {
+      font-weight: 400;
+      font-size: 4.8rem;
+      margin-bottom: 1.8rem;
+      color: $lighter_text_color;
+    }
+    p {
+      color: $lighter_text_color;
+      font-size: 2.4rem;
+      font-weight: 300;
+    }
+  }
+  &__btn {
+    margin-top: 2rem;
+  }
+}
+
+//  >= 992px
+@media (min-width: 992px) {
+  .promotion {
+    &__btn {
+      margin-top: 0;
+    }
+  }
+}

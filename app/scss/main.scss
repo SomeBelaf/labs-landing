@@ -1,0 +1,67 @@
+@import "libs";
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "global-classes";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $font_family_text;
+}
+p {
+  color: $main_text_color;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: $darker_text_color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font_family_title;
+}
+h2 {
+  font-size: 3.6rem;
+}
+button {
+  outline-width: 1px;
+  outline-color: $link_color;
+  font-family: $font_family_title;
+}
+img {
+  max-width: 100%;
+}
+
+/*
+//  >= 576px
+@media (min-width: 576px) {
+}
+// >= 768px
+@media (min-width: 768px) {
+}
+//  >= 992px
+@media (min-width: 992px) {
+}
+//  >= 1200px
+@media (min-width: 1200px) {
+}
+*/
+
+@import "pages/home-page";
+@import "pages/services-page";
+@import "pages/contacts-page";
+@import "pages/blog-page";
+@import "pages/blog-post-page";

@@ -1,0 +1,91 @@
+.block-visible {
+  overflow: visible !important;
+  height: auto !important;
+  animation: dropDown 0.4s ease 0s;
+}
+@keyframes dropDown {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+};
+
+
+.button {
+  @include mixin-button($active_color, $second_color, $darker_text_color);
+}
+.button--negative {
+  @include mixin-button($second_color, $lighter_text_color, $active_color);
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 9rem;
+  padding-top: 5rem;
+  &--dark{
+    h2{
+      color:$darker_text_color !important;
+    }
+  }
+  h2 {
+    color: $lighter_text_color;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  span {
+    padding: 0 0.08em 0.14em;
+    display: inline-block;
+    color: $darker_text_color;
+    background-color: $active_color;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 0.5rem;
+    height: 3rem;
+    background-color: $active_color;
+  }
+  &--left {
+    h2 {
+      text-align: left;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 2rem;
+      transform: translateX(-50%);
+      top: 0;
+      width: 0.5rem;
+      height: 3rem;
+      background-color: $active_color;
+    }
+  }
+}
+
+.small-padding{
+  padding: 9.5rem 0;
+}
+.section-bg{
+  position: relative;
+  display: block;
+  background: #6a23b5;
+  z-index: 1;
+}
+.section-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background-image: url("../../images/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

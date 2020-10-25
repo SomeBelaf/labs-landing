@@ -1,0 +1,27 @@
+.employee {
+  text-align: center;
+  margin-bottom: 6rem;
+  &__photo {
+    margin-bottom: 6rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: $lighter_text_color;
+  }
+  span {
+    font-size: 1.4rem;
+    font-family: $font_family_title;
+    color: $active_color;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+};
+
+// >= 768px
+@media (min-width: 768px) {
+    .employee{
+        margin-bottom: 0;
+    }
+}

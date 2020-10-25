@@ -1,0 +1,32 @@
+.blog {
+  display: block;
+  &__pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    .active {
+      background-color: $active_color;
+    }
+    a {
+      transition: $main_transition;
+      text-decoration: none;
+      display: inline-block;
+      font-family: $font_family_title;
+      font-size: 1.6rem;
+      color: $darker_text_color;
+      padding: 0.6rem 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.blog-content {
+  position: relative;
+  margin-bottom: 9rem;
+}
+
+// >= 768px
+@media (min-width: 768px) {
+  .blog-content {
+    margin-bottom: 0;
+  }
+}

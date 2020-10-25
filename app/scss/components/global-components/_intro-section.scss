@@ -1,0 +1,42 @@
+.intro-section {
+  height: 40.5rem;
+  padding-top: 20rem;
+}
+.page-info {
+margin-right: 2rem;
+  h2 {
+    text-transform: capitalize;
+    color: $lighter_text_color;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+}
+.page-link {
+  a,
+  span {
+    text-transform: capitalize;
+    position: relative;
+    color: $lighter_text_color;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: "Oswald", sans-serif;
+    margin-right: 0.8em;
+    padding-right: 0.8em;
+    font-weight: 400;
+    transition: $main_transition;
+  }
+  a:after {
+    content: "|";
+    position: absolute;
+    right: -3px;
+    color: $lighter_text_color;
+  }
+  a:hover {
+    color: $link_color;
+  }
+  span {
+    margin-right: 0;
+    padding-right: 0;
+    color: $active_color;
+  }
+}

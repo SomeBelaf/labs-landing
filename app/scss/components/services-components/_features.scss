@@ -1,0 +1,44 @@
+.features {
+  &__img {
+    margin: 7rem 0;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+.feature {
+  display: inline-flex;
+  margin-bottom: 5rem;
+  &__icon {
+    font-size: 4rem;
+    margin-right: 3rem;
+    color: $active_color;
+  }
+  h2 {
+    color: $lighter_text_color;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  p {
+    color: $lighter_text_color;
+  }
+}
+.left {
+    text-align: right;
+  .feature__icon {
+    margin-left: 3rem;
+    margin-right: 0;
+  }
+}
+
+//  >= 768px
+@media (min-width: 768px) {
+  .features {
+    &__img {
+      margin: 0;
+    }
+  }
+}
