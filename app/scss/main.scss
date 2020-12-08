@@ -59,7 +59,21 @@ img {
 @media (min-width: 1200px) {
 }
 */
+/* Import global components for all site*/
+@import "components/global-components/autor";
+@import "components/global-components/blog";
+@import "components/global-components/coments";
+@import "components/global-components/contact-us";
+@import "components/global-components/footer";
+@import "components/global-components/form";
+@import "components/global-components/header";
+@import "components/global-components/intro-section";
+@import "components/global-components/newsletter";
+@import "components/global-components/post";
+@import "components/global-components/services";
+@import "components/global-components/sidebar";
 
+/*Import special components for pages*/
 @import "pages/home-page";
 @import "pages/services-page";
 @import "pages/contacts-page";
