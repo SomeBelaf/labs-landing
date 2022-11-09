@@ -1,6 +1,6 @@
 Landing page for Wordpress with a blog, сreated with **HTML**, **SCSS** and **JQuery**.
 
-**Live demo** - https://someimya.github.io/labs-landing/dist/index.html
+**Live demo** - https://somebelaf.github.io/labs-landing/app/index.html
 
 **Bootstrap 4** - https://getbootstrap.com/
 
